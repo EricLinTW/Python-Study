@@ -1,4 +1,4 @@
-aw# Import a library of functions called 'pygame'
+# Import a library of functions called 'pygame'
 import pygame
 from math import pi
  
@@ -13,7 +13,7 @@ GREEN = (  0, 255,   0)
 RED =   (255,   0,   0)
  
 # Set the height and width of the screen
-size = [800, 600]
+size = [400, 300]
 screen = pygame.display.set_mode(size)
  
 pygame.display.set_caption("Example code for the draw module")
