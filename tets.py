@@ -58,7 +58,7 @@ while not done:
      
     # Draw an ellipse outline, using a rectangle as the outside boundaries
     pygame.draw.ellipse(screen, RED, [225, 10, 50, 20], 2) 
-
+    pygame.draw.ellipse(screen, RED, [225, 10, 80, 110], 3) 
     # Draw an solid ellipse, using a rectangle as the outside boundaries
     pygame.draw.ellipse(screen, RED, [300, 10, 50, 20]) 
  
